@@ -90,9 +90,13 @@
 	.collection__text__div {
 		margin-bottom: 50px;
 	}
+
+	.ham__menu {
+		transform: scale(1);
+	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
 	.collection__item {
 		display: flex;
 		flex-direction: column;
@@ -112,5 +116,13 @@
 
 	.collection__text {
 		margin-bottom: 48px;
+		max-width: 80%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ham__menu {
+		transform: scale(1.3);
 	}
 }
