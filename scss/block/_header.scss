@@ -1,0 +1,42 @@
+#header {
+	padding-top: 9px;
+	padding-bottom: 30px;
+	margin-top: 35px;
+	margin-bottom: 27px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__list {
+	display: flex;
+	gap: 32px;
+}
+
+.nav__link {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.923077px;
+	text-transform: uppercase;
+	color: #83888f;
+}
+
+.ham__menu {
+	display: none;
+}
+
+@media only screen and (max-width: 660px) {
+	.nav__list {
+		display: none;
+	}
+
+	.ham__menu {
+		display: block;
+	}
+}
