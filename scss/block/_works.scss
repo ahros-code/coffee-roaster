@@ -1,0 +1,138 @@
+#works {
+	margin-top: 200px;
+}
+
+.works__title {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #83888f;
+	margin-bottom: 80px;
+}
+
+.box {
+	width: 760px;
+	height: 2px;
+	background-color: #fdd6ba;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-bottom: 67px;
+}
+
+.item {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: #fefcf7;
+	border: 2px solid #0e8784;
+	border-radius: 50%;
+}
+
+.item1 {
+	position: absolute;
+	left: 0;
+}
+
+.item3 {
+	position: absolute;
+	right: 0;
+}
+
+.works__item-text {
+	max-width: 285px;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #333d4b;
+	max-width: 285px;
+}
+
+.works__number {
+	font-size: 72px;
+	line-height: 72px;
+	color: #fdd6ba;
+	margin-bottom: 38px;
+}
+
+.works__item-title {
+	font-size: 32px;
+	line-height: 36px;
+	color: #333d4b;
+	max-width: 255px;
+	margin-bottom: 43px;
+}
+
+.works__list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 64px;
+}
+
+.works__block {
+	max-width: 1045px;
+	margin-left: 80px;
+}
+
+.works__btn {
+	padding: 15px 31px 16px 31px;
+	background: #0e8784;
+	border-radius: 6px;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #fefcf7;
+}
+
+@media only screen and (max-width: 1060px) {
+	.works__block {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 941px) {
+	.box {
+		display: none;
+	}
+
+	.works__list {
+		flex-direction: column;
+	}
+
+	.works__item {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.works__title {
+		text-align: center;
+	}
+
+	.works__number {
+		margin-bottom: 24px;
+	}
+
+	.works__item-title {
+		max-width: 327px;
+		font-size: 28px;
+		line-height: 32px;
+		margin-bottom: 24px;
+	}
+
+	.works__item-text {
+		max-width: 327px;
+		margin-bottom: 56px;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+	.works__block {
+		text-align: center;
+		margin-left: 0;
+	}
+}
